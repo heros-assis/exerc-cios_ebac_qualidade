@@ -9,30 +9,16 @@ Para depois inserir no carrinho
 Contexto:
 Dado que acesso a página do produto
 
-Cenário: Validar Cor, Tamanho e Quantidade - Autenticação válida
-Quando seleciono "tamanho"
-E seleciono "cor"
-E seleciono "quantidade"
+Cenário: Validar Campos Obrigatórios - Autenticação Válida
+Quando seleciono "tamanho" "cor" e "quantidade"
 Então clico no botão "Comprar" para finalizar a compra
 
-Cenário: Validar Cor, Tamanho e Quantidade - Autenticação Inválida
-Quando seleciono "tamanho"
-E seleciono "cor"
-Então deve exibir mensagem "selecionar quantidade"
-
-Cenário: Validar Cor, Tamanho e Quantidade - Autenticação Inválida
-Quando seleciono "tamanho"
-E seleciono "quantidade"
-Então deve exibir mensagem "selecionar cor"
-
-Cenário: Validar Cor, Tamanho e Quantidade - Autenticação Inválida
-Quando seleciono "cor"
-E seleciono "quantidade"
-Então deve exibir mensagem "selecionar tamanho"
+Cenário: Validar campos Obrigatórios - Autentificação Inválida
+Quando não seleciono algum dos campos "tamanho" "cor" e "quantidade"
+Então Então deve exibir mensagem "campo obrigatório não preenchido"
 
 Cenário: Compra com no máximo 10 produtos - Autenticação Válida
-Quando seleciono "tamanho"
-E seleciono "cor"
+Quando seleciono "tamanho" "cor" 
 E seleciono "quantidade" adicionando "10" produtos
 Então deve exibir mensagem "quantidade máxima permitida"
 

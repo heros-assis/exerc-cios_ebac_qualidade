@@ -15,14 +15,14 @@
 
             Exemplos:
             | usuario             | senha         | mensagem      |
-            | "vitor@gmail.com"   | "vitor@123"   | "Olá Vitor"   |
-            | "camila@gmail.com"  | "camila@123"  | "Olá Camila"  |
+            | "vitor.santos@gmail.com"   | "vitor@123"   | "Olá Vitor"   |
+            | "camila_08@hotmail.com"  | "camila@123"  | "Olá Camila"  |
             | "heros@gmail.com"   | "heros@123"   | "Olá Heros"   |
-            | "marco@gmail.com"   | "marco@123"   | "Olá Marco"   |
-            | "vitoria@gmail.com" | "vitoria@123" | "Olá Vitoria" |
-            | "camille@gmail.com" | "camille@123" | "Olá Camille" |
-            | "heitor@gmail.com"  | "heitor@123"  | "Olá Heitor"  |
-            | "marcia@gmail.com"  | "marcia@123"  | "Olá Márcia"  |
+            | "marco-marco@gmail.com"   | "marco@123"   | "Olá Marco"   |
+            | "vitoria_camila.snts@gmail.com" | "vitoria@123" | "Olá Vitoria" |
+            | "camille_0258@hotmail.com" | "camille@123" | "Olá Camille" |
+            | "heitor.sil_@gmail.com"  | "heitor@123"  | "Olá Heitor"  |
+            | "marcia-084@gmail.com"  | "marcia@123"  | "Olá Márcia"  |
 
 
 
